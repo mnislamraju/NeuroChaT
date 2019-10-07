@@ -12,9 +12,9 @@ of the NeuroChaT software.
 import sys
 from PyQt5 import QtWidgets
 
-sys.path.insert(1, 'C:\\Users\\Raju\\Google Drive\\NeuroChaT Py\\neurochat\\')
+sys.path.insert(1, 'C:\\Users\\Raju\\Google Drive\\NeuroChaT Py\\NeuroChaT\\neurochat\\')
 
-from neurochat.nc_ui import NeuroChaT_Ui
+from nc_ui import NeuroChaT_Ui
 
 def main():
     app = QtWidgets.QApplication(sys.argv)
