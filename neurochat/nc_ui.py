@@ -27,15 +27,15 @@ from PyQt5 import QtCore, QtWidgets, QtGui
 
 #import nc_uiutils
 #reload(nc_uiutils)
-from neurochat.nc_uiutils import NOut, PandasModel, ScrollableWidget, add_radio_button, \
+from nc_uiutils import NOut, PandasModel, ScrollableWidget, add_radio_button, \
     add_push_button, add_check_box, add_combo_box, add_log_box, add_label, \
     add_line_edit, add_group_box, add_spin_box, add_double_spin_box, xlt_from_utf8
 
-from neurochat.nc_uimerge import UiMerge
+from nc_uimerge import UiMerge
 
 #import nc_control
 #reload(nc_control)
-from neurochat.nc_control import NeuroChaT
+from nc_control import NeuroChaT
 
 import pandas as pd
 
